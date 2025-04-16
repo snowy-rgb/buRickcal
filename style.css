@@ -1,0 +1,8 @@
+#content {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+body.fade-out #content {
+  opacity: 0;
+}
